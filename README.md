@@ -9,10 +9,6 @@
 Use Jasmine to write a number of tests to test the logic of the application.
 
 ## How to run the application
-Online version:
-https://ellyanalinden.github.io/Feed-Reader-Udacity/
-
-Run application locally:
 * Clone the repository using git or download the file
 * Navigate where you unzipped or cloned the repository
 * Open index HTML in your browser
