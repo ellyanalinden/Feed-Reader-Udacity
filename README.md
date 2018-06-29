@@ -13,7 +13,6 @@ Use Jasmine to write a number of tests to test the logic of the application.
 * Navigate where you unzipped or cloned the repository
 * Open index HTML in your browser
 * Once loaded, test results are shown at the bottom of the page
-* Online version: https://ellyanalinden.github.io/Feed-Reader-Udacity/
 
 ## References
 * https://github.com/velesin/jasmine-jquery/blob/master/README.md
