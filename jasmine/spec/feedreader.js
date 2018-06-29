@@ -26,7 +26,6 @@ $(function() {
             expect(allFeeds.length).not.toBe(0);
         });
 
-
         /* Test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
@@ -37,7 +36,6 @@ $(function() {
              expect(allFeed.url.length).not.toBe(0);
            }
          });
-
 
         /* Test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
@@ -50,7 +48,6 @@ $(function() {
            }
          });
     });
-
 
     /* Test suite named "The menu" */
     describe('The menu', function() {
@@ -79,9 +76,7 @@ $(function() {
           $('.menu-icon-link').trigger('click');
           expect($('body').hasClass('menu-hidden')).toBe(true);
         });
-
     });
-
 
     /* Test suite named "Initial Entries" */
     describe('Initial Entries', function() {
@@ -104,7 +99,6 @@ $(function() {
           expect($('.feed .entry').length).toBeGreaterThan(0);
         });
     });
-
 
     /* Test suite named "New Feed Selection" */
     describe('New Feed Selection', function() {
